@@ -3,7 +3,7 @@ def my_each(arg)
   i = 0
   while i < arg.size 
     yield(arg)
-    i+= arg.size 
+    i+= 1
   end
   arg
 end
