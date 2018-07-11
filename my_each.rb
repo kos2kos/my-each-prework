@@ -1,3 +1,10 @@
-def my_each # put argument(s) here
+def my_each(arg)
   # code here
+  i = 0
+  while i < arg.size 
+    yield(arg[i])
+    i+= 1
+  end
+  arg
 end
+
