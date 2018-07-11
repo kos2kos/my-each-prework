@@ -1,4 +1,4 @@
-def my_each(arg) {puts |x|
+def my_each(arg) {|x| puts x}
   # code here
   i = 0
   while i < arg.size 
